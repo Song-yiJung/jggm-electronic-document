@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ================================================================ -->
+<!-- 투고자 투고자 메일주소
+  심사기간이라 작성자 정보 작성하지 않았습니다 -->
+<!-- Created Date: 2025.01.04. --> 
+<!-- ================================================================ -->
+
+<!ELEMENT item (front?, level1+)>
+<!ATTLIST item
+    id CDATA #REQUIRED
+    type CDATA #REQUIRED
+    org CDATA #FIXED "국립중앙박물관">
+
+<!ELEMENT front (biblioData?, typeGroup?, illustGroup?, relatedImages?, relatedReference?)>
+<!ELEMENT biblioData (title, docNo?, creator?,  date?, publication?, binderPeriod?, holdings?)>
+<!ELEMENT title (mainTitle, subTitle?)>
+<!ELEMENT mainTitle (#PCDATA)>
+<!ELEMENT subTitle (#PCDATA)>
+<!ATTLIST subTitle
+    lan CDATA #IMPLIED>
+
+<!ELEMENT creator (editor | author)+>
+<!ELEMENT editor (name)>
+<!ELEMENT author (name)>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT publication (publisher, dateIssued?)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT dateIssued (#PCDATA)>
+<!ATTLIST dateIssued
+    date CDATA #IMPLIED>
+
+<!ELEMENT binderPeriod EMPTY>
+<!ATTLIST binderPeriod
+    begin CDATA #IMPLIED
+    end CDATA #IMPLIED>
+
+<!ELEMENT holdings (serialNumber?)>
+<!ELEMENT serialNumber EMPTY>
+<!ATTLIST serialNumber
+    MFNo CDATA #IMPLIED>
+    
+<!ELEMENT docNo (#PCDATA)> 
+<!ATTLIST docNo
+    level CDATA "n"> 
+
+<!ELEMENT date (#PCDATA)>
+
+<!-- Type Group -->
+<!ELEMENT typeGroup (type+)>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST type
+    typeCreator CDATA #REQUIRED>
+
+<!-- Illustration Group -->
+<!ELEMENT illustGroup (illustration*)>
+<!ELEMENT illustration EMPTY>
+<!ATTLIST illustration
+    id CDATA #IMPLIED
+    begin CDATA #IMPLIED
+    end CDATA #IMPLIED>
+
+<!-- Level Elements -->
+<!ELEMENT level1 (front?, level2*, level3*)>
+<!ATTLIST level1
+    id CDATA #REQUIRED
+    name CDATA #IMPLIED>
+
+<!ELEMENT level2 (front?, level3*)>
+<!ATTLIST level2
+    id CDATA #REQUIRED
+    type CDATA #IMPLIED>
+
+<!ELEMENT level3 (front?, text)>
+<!ATTLIST level3
+    id CDATA #REQUIRED
+    type CDATA #REQUIRED>
+
+<!-- Text and Content -->
+<!ELEMENT text (content*)>
+<!ELEMENT content (manuscript | paragraph+)>
+<!ATTLIST content
+    type CDATA #IMPLIED>
+
+<!-- Manuscript -->
+<!ELEMENT manuscript (paragraph+)>
+<!ATTLIST manuscript
+    name CDATA #IMPLIED>
+
+<!-- Paragraph and Related Elements -->
+<!ELEMENT paragraph (#PCDATA | position | person | county | place | heritageSite | eraName | index)*>
+
+<!-- Position -->
+<!ELEMENT position (#PCDATA)>
+<!ATTLIST position
+    id ID #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+
+<!-- Person -->
+<!ELEMENT person  (#PCDATA)>
+<!ATTLIST person
+    id ID #REQUIRED
+    type CDATA #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->    
+
+<!-- Image -->
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image
+    id ID #IMPLIED
+    path CDATA #IMPLIED
+    url CDATA #IMPLIED
+    description CDATA #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+    
+<!-- County -->
+<!ELEMENT county (#PCDATA)>
+<!ATTLIST county
+    id ID #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+
+<!-- Place -->
+<!ELEMENT place (#PCDATA)>
+<!ATTLIST place
+    id ID #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+
+<!-- Heritage Site -->
+<!ELEMENT heritageSite (#PCDATA)>
+<!ATTLIST heritageSite
+    id ID #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+
+<!-- Era Name -->
+<!ELEMENT eraName (#PCDATA)>
+<!ATTLIST eraName
+    id ID #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->    
+
+<!-- Index -->
+<!ELEMENT index (#PCDATA)>
+<!ATTLIST index
+    id ID #IMPLIED
+    type CDATA #IMPLIED
+    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->    
+
+<!-- Related Images and References -->
+<!ELEMENT relatedImages (inerImages?, externalImages?)>
+  <!ELEMENT inerImages (Image*)>
+  <!ELEMENT externalImages (Image*)>
+
+  <!ELEMENT Image (#PCDATA)>
+  <!ATTLIST Image 
+      id ID #REQUIRED 
+      path CDATA #IMPLIED 
+      url CDATA #IMPLIED 
+      description CDATA #IMPLIED
+      ref IDREF #IMPLIED> <!-- ref 속성 추가 -->       
+
+<!-- References -->
+<!ELEMENT relatedReference (inerReference?, externalReference?)> 
+  <!ELEMENT inerReference (Reference*)>
+  <!ELEMENT externalReference (Reference*)>
+
+  <!ELEMENT Reference (#PCDATA)>
+  <!ATTLIST Reference 
+      id CDATA #IMPLIED
+      path CDATA #IMPLIED 
+      url CDATA #IMPLIED
+      name CDATA #REQUIRED> 

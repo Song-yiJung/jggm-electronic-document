@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item SYSTEM "Untitled5.dtd">
+<item id="A" type="조선총독부박물관_문서" org="국립중앙박물관">
+    <front>
+        <biblioData>
+            <title>
+                <mainTitle>조선총독부박물관_문서</mainTitle>
+            </title>
+        </biblioData>
+    </front>
+    <level1 id="A_071" name="문서철">
+       <front>
+           <biblioData>
+                <title>
+                    <mainTitle>慶州附近遺蹟遺物保存施設</mainTitle>
+                    <subTitle lan="kor">경주부근 유적유물 보존시설</subTitle>
+                </title>
+                <creator>
+                <editor>
+                    <name>조선총독부박물관</name>
+                </editor>
+                </creator>
+               <publication>
+                   <publisher>투고자 정보 입력 예정</publisher>
+                   <dateIssued date="2025-01-04">2025-01-04</dateIssued>
+               </publication>
+                <binderPeriod begin="1929-00-00" end="1929-00-00"/>
+                <holdings>
+                <serialNumber MFNo="A071"/>
+                </holdings>
+           </biblioData>
+           <typeGroup>
+           <type typeCreator="국박">보존</type>
+           <type typeCreator="오영찬">고사사</type>
+           </typeGroup>
+           <illustGroup>
+                <illustration begin="A071_002_002_001" end="A071_003_002_004"/>
+            </illustGroup>
+       </front>       
+    <level2 id="A071_002" type="문건">
+        <front>
+            <biblioData>
+                <title>
+                    <mainTitle>慶州南山遺蹟保存意見書</mainTitle>
+                    <subTitle lan="kor">경주 남산 유적 보존 의견서</subTitle>
+                </title>
+                <creator>
+                    <editor>
+                        <name>조선총독부박물관</name>
+                    </editor>
+                </creator>
+                <publication>
+                    <publisher>투고자 정보 입력 예정</publisher>
+                    <dateIssued date="2025-01-04">2025-01-04</dateIssued>
+                </publication>
+                <binderPeriod begin="1929-00-00" end="1929-00-00"/>
+                <holdings>
+                    <serialNumber MFNo="A071_002_002"/>
+                </holdings>
+            </biblioData>
+            <typeGroup>
+                <type typeCreator="국박">보존</type>
+                <type typeCreator="오영찬">고사사</type>
+            </typeGroup>
+            <illustGroup>
+                <illustration begin="A071_002_002_001" end="A071_002_002_012"/>
+            </illustGroup>
+        </front>               
+    </level2>   
+        <level3 id="A071_002_002_001" type="문서">
+            <front>
+                <biblioData>
+                    <title>
+                        <mainTitle>慶州南山遺蹟保存意見書</mainTitle>
+                        <subTitle lan="kor">경주 남산 유적 보존 의견서</subTitle>
+                    </title>
+                    <docNo level="n">A071_002_002_001</docNo>
+                    <creator>
+                        <author>
+                            <name>구로이타 가쓰미(黑板勝美)</name>
+                        </author>
+                    </creator>
+                    <dateIssued>1929-00-00</dateIssued>
+                 </biblioData>
+                <typeGroup>
+                    <type typeCreator="국박">보존</type>
+                    <type typeCreator="오영찬">고사사</type>
+                </typeGroup>
+                <illustGroup>
+                    <illustration id="A071_002_002_001"/>
+                </illustGroup>
+            </front>
+            <text>
+                <content>
+                    <manuscript name="탈초">
+                        <paragraph>경주남산유적보존의견서</paragraph>
+                    </manuscript>
+                </content>
+            </text>
+        </level3>        
+    <level3 id="A071_002_002_002" type="문서">
+    <front>
+        <biblioData>
+            <title>
+                <mainTitle>慶州南山遺蹟保存意見書</mainTitle>
+                <subTitle lan="kor">경주 남산 유적 보존 의견서</subTitle>
+            </title>
+            <docNo level="n">A071_002_002_002</docNo>
+            <creator>
+                <author>
+                    <name>구로이타 가쓰미(黑板勝美)</name>
+                </author>
+            </creator>
+                <dateIssued>1929-00-00</dateIssued>            
+        </biblioData>
+        <typeGroup>
+            <type typeCreator="국박">보존</type>
+            <type typeCreator="오영찬">고사사</type>
+        </typeGroup>
+        <illustGroup>
+            <illustration id="A071_002_002_002"/>
+        </illustGroup>
+        <relatedImages>
+            <inerImages>
+            <Image id="img1" path="museum/resource/jc/image1.jpg" description="유리건판"/>
+            </inerImages>
+            <externalImages>
+                <Image id="extimg1" url="https://external-organization.com/images/image1.jpg" description="외부기관이미지"/>
+            </externalImages>
+        </relatedImages>
+        <relatedReference>
+            <inerReference>
+                <Reference name="보고서" id="IR0001" path="museum/resource/jc/rf.pdf">국립중앙박물관 발행 경주남산 학술보고서</Reference> 
+            </inerReference>
+            <externalReference>
+                <Reference name="보고서" id="ER0001" url="https://external-organization.com/jc.pdf">국립문화유산연구원 발행 경주남산 유적 조사보고서</Reference>
+            </externalReference>
+        </relatedReference>    
+    </front>
+    <text>
+        <content>
+            <manuscript name="탈초">
+                <paragraph>慶州南山遺蹟保在及囗調査囗關囗ん意見書</paragraph>
+                <paragraph><position id="J0001">朝鮮總督府古蹟調査委員</position> <person id="NP0001" type="이름">黑板勝美</person></paragraph>
+                <paragraph><county id="T001">新羅</county>一千年, 旧都タル塵州囗入リ先ツ崛嘱目囗囗囗平泉</paragraph>
+                <paragraph>,中央 屹立スル南山ナリ、宮城幾變轉而カモ<place id="P0001">南山</place>独リ依</paragraph>
+                <paragraph>然トシテ麓囗翠松囗繞ぅぇ諸骨稜々トシテ峰頭靑空ニ囗耳ユ</paragraph>
+                <paragraph>史?按囗囗囗 南山旧石 <place id="P0002">金鰲山</place>ト言ヒ<county ref="T001">新羅</county><person id="NP0002" type="왕호">眞平王</person>十三</paragraph>
+                <paragraph>年一千三百三十年前既囗山頂囗城囗<place id="P0003">南山城</place>ト囗し<heritageSite id="S0001">仙桃山城</heritageSite><eraName id="ER00001"> 明治</eraName>/活</paragraph>
+                <paragraph>山城ト相對 固囗国都囗護囗ト共囗 <place id="P0004">府南</place> 霊地トシテ谷</paragraph>
+                <paragraph>囗峰々堂塔伽藍甍囗連囗、天龍 囗長 天官 <heritageSite id="S0002">昌林寺</heritageSite>数十</paragraph>
+                <paragraph>寺址 今尚基石塔佛 散乱セん囗見囗加之山頂南山城址ヨリ</paragraph>
+                <paragraph>山薦/麓一帶?亘リ三千年 遺蹟遺物囗以囗理メうし 金属ノ</paragraph>
+            </manuscript>
+            </content>
+    </text>
+</level3>
+</level1>      
+</item>
