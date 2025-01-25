@@ -93,14 +93,14 @@
 <!ELEMENT position (#PCDATA)>
 <!ATTLIST position
     id ID #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+    ref IDREF #IMPLIED>
 
 <!-- Person -->
 <!ELEMENT person  (#PCDATA)>
 <!ATTLIST person
     id ID #REQUIRED
     type CDATA #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->    
+    ref IDREF #IMPLIED>  
 
 <!-- Image -->
 <!ELEMENT image (#PCDATA)>
@@ -109,38 +109,38 @@
     path CDATA #IMPLIED
     url CDATA #IMPLIED
     description CDATA #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+    ref IDREF #IMPLIED>
     
 <!-- County -->
 <!ELEMENT county (#PCDATA)>
 <!ATTLIST county
     id ID #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+    ref IDREF #IMPLIED> 
 
 <!-- Place -->
 <!ELEMENT place (#PCDATA)>
 <!ATTLIST place
     id ID #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+    ref IDREF #IMPLIED> 
 
 <!-- Heritage Site -->
 <!ELEMENT heritageSite (#PCDATA)>
 <!ATTLIST heritageSite
     id ID #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->
+    ref IDREF #IMPLIED> 
 
 <!-- Era Name -->
 <!ELEMENT eraName (#PCDATA)>
 <!ATTLIST eraName
     id ID #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->    
+    ref IDREF #IMPLIED> 
 
 <!-- Index -->
 <!ELEMENT index (#PCDATA)>
 <!ATTLIST index
     id ID #IMPLIED
     type CDATA #IMPLIED
-    ref IDREF #IMPLIED> <!-- ref 속성 추가 -->    
+    ref IDREF #IMPLIED> 
 
 <!-- Related Images and References -->
 <!ELEMENT relatedImages (inerImages?, externalImages?)>
@@ -153,7 +153,7 @@
       path CDATA #IMPLIED 
       url CDATA #IMPLIED 
       description CDATA #IMPLIED
-      ref IDREF #IMPLIED> <!-- ref 속성 추가 -->       
+      ref IDREF #IMPLIED> 
 
 <!-- References -->
 <!ELEMENT relatedReference (inerReference?, externalReference?)> 
