@@ -33,8 +33,7 @@
 본 레포지토리 데이터를 연구나 프로젝트에 활용할 경우 아래 형식으로 인용해주세요:<br><br>
 
 - 영문<br>
-Jung, Song-Yi. "XML-Based Digital Archive for Joseon Governor-General Museum Documents." GitHub Repository: jggm-electronic-document. Last updated January 4, 2025. https://github.com/Song-yiJung/jggm-electronic-document.
-<br>
+Jung, Song-Yi. "XML-Based Digital Archive for Joseon Governor-General Museum Documents." GitHub Repository: jggm-electronic-document. Last updated January 4, 2025. https://github.com/Song-yiJung/jggm-electronic-document.<br>
 - 국문<br>
 정송이. "조선총독부박물관 문서의 XML 기반 디지털 아카이브." GitHub 저장소: jggm-electronic-document. 최종 업데이트: 2025년 1월 4일. https://github.com/Song-yiJung/jggm-electronic-document.
 <br><br>  
