@@ -38,6 +38,7 @@ Jung, Song-Yi. "XML-Based Digital Archive for Joseon Governor-General Museum Doc
 - 국문<br>
 정송이. "조선총독부박물관 문서의 XML 기반 디지털 아카이브." GitHub 저장소: jggm-electronic-document. 최종 업데이트: 2025년 1월 4일. https://github.com/Song-yiJung/jggm-electronic-document.
 <br><br>
+## 연락
 - 문의 사항이나 협업 제안은 이메일(songi113@hanmail.net)을 통해 연락주시기 바랍니다. 감사합니다.
 
 
