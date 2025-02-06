@@ -1,4 +1,4 @@
-# 조선총독부박물관 문서 XML 기반 디지털 아카이브 jggm-electronic-document
+# 조선총독부박물관 문서 XML 기반 디지털 아카이브
 
 ## 개요 
 
